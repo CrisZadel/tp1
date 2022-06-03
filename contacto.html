@@ -1,0 +1,72 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Viajes y Turismo Nacional</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="descripción" content="Está es mi primer Pagina Web"/>
+    <meta name="Keywords" content="Mi primer viaje, vaciones, viajes en argentina, turismo argentino"/>    
+</head>
+    <body>
+        <div id="fondologo">
+            <img id="logo" src="Fotos/Logo.png">
+          </div>
+               <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="Empleos.html">Empleos</a> </li>
+            <li><a href="fotos.html">Galería</a> </li>
+        </ul>
+       
+        <div class="contact_form">
+            <div class="formulario">      
+              <h1>Formulario de contacto</h1>
+                <h3>¡Escríbenos y en breve nos pondremos en contacto!</h3>        
+                     <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                    </p>
+                      
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                    </p>
+                    
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>       
+                        
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                    </p>    
+                      
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>                     
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                      
+                        <button type="submit" name="enviar_formulario" id="enviar" ><p>Enviar</p></button>
+        
+                    <p class="aviso">
+                        <span class="obligatorio">*</span>los campos son obligatorios.
+                    </p>           
+                </form>
+            </div>  
+        </div>
+
+    <footer id="piepagina">
+        Viajes y Turismo Nacional || Grupo 1: Alan Hilves, Antonella Padularrosa,  Manuel Rodriguez, Valentina Collareta || Derechos Reservados © 2020-2021
+      </footer>
+    </body>
+</html>
