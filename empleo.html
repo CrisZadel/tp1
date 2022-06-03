@@ -1,0 +1,53 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Viajes y Turismo Nacional</title>
+    <script src="datos.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="descripción" content="Está es mi primer Pagina Web"/>
+    <meta name="Keywords" content="Mi primer viaje, vaciones, viajes en argentina, turismo argentino"/>    
+</head>
+    <body>
+        <div id="fondologo">
+            <img id="logo" src="Fotos/Logo.png">
+          </div>
+               <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contacto.html">Contacto</a> </li>
+            <li><a href="">Empleos</a></li>
+            <li><a href="fotos.html">Galería</a> </li>
+        </ul>
+
+    <div class="submit">
+        <p class="scroll">Permanentemente estamos buscando licenciados en turismo para sumarse a nosotros</p>
+            <p>Si te gustaría ser parte de nuestro equipo</p>
+            <p><br>Ingresa tu CURRICULUM VITAE para tenerte en cuenta en futuras busquedas laborales</p>
+            <form>
+                <p>
+                Nombre:* <input class="campo" type="text" id="nombre"required> <br>
+                Apellido:* <input class="campo" type="text" id="apellido" required><br>
+                Fecha nacimiento:*<input type='Date' value='' id="fechanaci" required > <br/>
+                Mail:* <input class="campo" type="text" id="mail" required><br>
+                Localidad: <input class="campo" type="text" id="localidad" required><br>
+                
+                <form>
+                   
+            <p>Contanos sobre vos:</p>
+              
+            <textarea name="message" onkeyup="countChars(this);"></textarea>
+            <p id="charNum">Quedan 500 caracteres</p>
+        
+            <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
+            <input type="file" name="imagen1" >
+            <br>
+            <!-- <input type="submit" name="subir-imagen" value="Enviar CURRICULUM" > -->
+            <button onclick="validaedad(document.getElementById('fechanaci').value)">Enviar curriculum</button>            
+        </br>
+        </form>
+    </div>
+        
+    <footer id="piepagina">
+        Viajes y Turismo Nacional || Grupo 1: Alan Hilves, Antonella Padularrosa,  Manuel Rodriguez, Valentina Collareta || Derechos Reservados © 2020-2021
+      </footer>
+    </body>
+</html>
